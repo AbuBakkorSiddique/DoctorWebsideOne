@@ -1,0 +1,135 @@
+@media ( min-width:769px) {
+
+
+    .HomeServicesSection{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        width:100%;
+        height:180vh;
+        gap:2vh;
+        padding-top:8vh;
+        overflow:hidden;
+    }
+    
+    .HomeServicesSection_items{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:2vh;
+    }
+    
+    .HomeServicesSection_items_One{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+    
+    
+    
+    .HomeServicesSection_items_two{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:768px) {
+    .HomeServicesSection{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        width:100%;
+        height:320vh;
+        gap:2vh;
+        overflow:hidden;
+        
+   
+    }
+
+    .HomeServicesSection_Tile h1{
+        font-size:20px;
+    }
+    
+    .HomeServicesSection_items{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:2vh;
+    }
+    
+    .HomeServicesSection_items_One{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:2vh;
+    }
+    
+    .HomeServicesSection_items_One .card{
+        height:330px;
+        width:80%;
+        padding:0;
+        margin:0;
+    }
+    .HomeServicesSection_items_One .card p {
+     font-size:10px;
+    }
+
+     .HomeServicesSection_items_One .card h2{
+        font-size:12px;
+    }
+    .HomeServicesSection_items_One .card img{
+        width:100%;
+        height:230px;
+        background-size:cover;
+    }
+    
+    .HomeServicesSection_items_two{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:2vh;
+    }
+
+
+    .HomeServicesSection_items_two .card{
+        height:330px;
+        width:80%;
+        padding:0;
+        margin:0;
+    }
+    .HomeServicesSection_items_two .card p {
+     font-size:10px;
+    }
+
+     .HomeServicesSection_items_two .card h2{
+        font-size:12px;
+    }
+    .HomeServicesSection_items_two .card img{
+        width:100%;
+        height:230px;
+        background-size:cover;
+    }
+
+
+
+
+
+
+}

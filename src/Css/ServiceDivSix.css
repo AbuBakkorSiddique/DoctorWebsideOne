@@ -1,0 +1,49 @@
+@media (min-width:769px) {
+    .ServiceDivSix{
+        width:100%;
+        height:60vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:5vh;
+        margin-bottom:5vh;
+    
+    }
+    
+    .ServiceDivSix_sub{
+        width:80%;
+        height:80%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+}
+
+@media(max-width:768px) {
+    .ServiceDivSix{
+        width:100%;
+        height:80vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:5vh;
+        margin-bottom:5vh;
+    
+    }
+    
+    .ServiceDivSix_sub{
+        width:80%;
+        height:80%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+       flex-direction:column;
+        text-align:center;
+    }
+    .ServiceDivSix_sub h1{
+        font-size:15px;
+    }
+    .ServiceDivSix_sub p{
+        font-size:12px;
+    }
+}

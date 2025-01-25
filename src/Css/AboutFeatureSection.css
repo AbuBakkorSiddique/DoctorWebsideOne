@@ -1,0 +1,101 @@
+@media (min-width:769px) {
+    .AboutFeatureSection{
+        width:100%;
+        height:70vh;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .AboutFeatureSection_right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:8vh;
+    }
+    .AboutFeatureSection_right_DivOne{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:3vw;
+    }
+    
+    .AboutFeatureSection_right_DivTwo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:3vw;
+    }
+    
+    .AboutFeatureSection_left{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:2vh;
+    }
+    .AboutFeatureSection_left_One{
+        line-height: 8px;
+    
+    }
+    
+    .AboutFeatureSection_left_Two{
+        line-height: 8px;
+    
+    }
+    
+    .AboutFeatureSection_left_Three{
+    
+        line-height: 8px;
+    }
+    
+    
+}
+
+
+@media (max-width:768px) {
+    .AboutFeatureSection{
+        width:100%;
+        height:120vh;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction:column;
+    }
+    .AboutFeatureSection_right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:8vh;
+    }
+    .AboutFeatureSection_right_DivOne{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:3vw;
+    }
+    
+    .AboutFeatureSection_right_DivTwo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:3vw;
+    }
+    
+    .AboutFeatureSection_left{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:2vh;
+        width:90%;
+        text-align:center;
+    }
+   .AboutFeatureSection_left p{
+    font-size:12px;
+    line-height: 5px;
+   }
+    
+    
+}

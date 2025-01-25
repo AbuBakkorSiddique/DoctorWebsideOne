@@ -1,0 +1,66 @@
+@media (min-width:1200px) {
+    .AboutHeroSection{
+        width:100%;
+        height:80vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        align-items:center;
+        
+    }
+    
+    .AboutHeroSection_left{
+        display:flex;
+        justify-content:center;
+      
+        flex-direction:column;
+       width:50%;
+       gap:10px;
+    }
+    
+    .AboutHeroSection_p{
+    
+        line-height: 10px;
+    }
+    
+    
+}
+
+
+@media (min-width:991px)  and (max-width:1199px){
+    .AboutHeroSection{
+        width:100%;
+        height:90vh;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction:column;
+    
+     
+        
+    }
+    
+    .AboutHeroSection_left{
+        width:90%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      
+        flex-direction:column;
+        text-align:center;
+        
+    }
+    .AboutHeroSection_left h2{
+        font-size:18px;
+    }
+    .AboutHeroSection_left p{
+        font-size:12px;
+    }
+
+    .AboutHeroSection_right{
+        width:90%;
+    }
+    
+
+    
+}

@@ -1,0 +1,54 @@
+@media (min-width:769px) {
+    .BenifitDivTwo{
+        width:100%;
+        height:60vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:5vh;
+        margin-bottom:5vh;
+    
+    }
+    
+    .BenifitDivTwo_sub{
+        width:80%;
+        height:80%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    
+    .BenifitDivTwo_p{
+        line-height: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .BenifitDivTwo{
+        width:100%;
+        height:80vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+   
+    
+    }
+    
+    .BenifitDivTwo_sub{
+        width:80%;
+        height:80%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+    }
+    .BenifitDivTwo_sub h2{
+        font-size:15px;
+
+    }
+    .BenifitDivTwo_sub p{
+        font-size:12px;
+    }
+  
+}
